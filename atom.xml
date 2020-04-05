@@ -3,11 +3,11 @@
   <title>Hexo Blog</title>
   
   
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/Blog/atom.xml" rel="self"/>
   
-  <link href="https://domeafavout.github.com/blog/"/>
+  <link href="https://domeafavout.github.com/Blog/"/>
   <updated>2020-04-05T10:32:39.990Z</updated>
-  <id>https://domeafavout.github.com/blog/</id>
+  <id>https://domeafavout.github.com/Blog/</id>
   
   <author>
     <name>张豪杰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello</title>
-    <link href="https://domeafavout.github.com/blog/2020/04/05/Hello/"/>
-    <id>https://domeafavout.github.com/blog/2020/04/05/Hello/</id>
+    <link href="https://domeafavout.github.com/Blog/2020/04/05/Hello/"/>
+    <id>https://domeafavout.github.com/Blog/2020/04/05/Hello/</id>
     <published>2020-04-05T10:32:39.000Z</published>
     <updated>2020-04-05T10:32:39.990Z</updated>
     
