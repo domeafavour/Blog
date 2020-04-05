@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo Blog</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://domeafavout.github.com/blog/"/>
+  <updated>2020-04-05T10:32:39.990Z</updated>
+  <id>https://domeafavout.github.com/blog/</id>
+  
+  <author>
+    <name>张豪杰</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello</title>
+    <link href="https://domeafavout.github.com/blog/2020/04/05/Hello/"/>
+    <id>https://domeafavout.github.com/blog/2020/04/05/Hello/</id>
+    <published>2020-04-05T10:32:39.000Z</published>
+    <updated>2020-04-05T10:32:39.990Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
