@@ -4,13 +4,29 @@
   
     
     <entry>
-      <title>Hello</title>
-      <link href="/Blog/2020/04/05/Hello/"/>
-      <url>/Blog/2020/04/05/Hello/</url>
+      <title>给页面添加深色模式</title>
+      <link href="/Blog/2020/04/05/20200405-Add-Dark-Mode/"/>
+      <url>/Blog/2020/04/05/20200405-Add-Dark-Mode/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>怎么给页面添加样式使之自动适配苹果设备的深色模式呢？其实只要使用一个媒体查询就可以：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">prefers-color-scheme:</span> dark) &#123;</span><br><span class="line">  <span class="comment">/* 启用深色模式时所生效的样式 */</span></span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#000</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>同样也可以给浅色模式指定样式：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">prefers-color-scheme:</span> light) &#123;</span><br><span class="line">  <span class="comment">/* 启用浅色模式时所生效的样式 */</span></span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>详细可以看<a href="https://www.creativebloq.com/how-to/how-to-implement-light-or-dark-modes-in-css">这篇文章</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+            <tag> css </tag>
+            
+            <tag> 深色模式 </tag>
+            
+        </tags>
       
     </entry>
     

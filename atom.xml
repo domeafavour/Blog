@@ -6,7 +6,7 @@
   <link href="/Blog/atom.xml" rel="self"/>
   
   <link href="https://domeafavout.github.com/Blog/"/>
-  <updated>2020-04-05T10:32:39.990Z</updated>
+  <updated>2020-04-05T11:39:48.040Z</updated>
   <id>https://domeafavout.github.com/Blog/</id>
   
   <author>
@@ -17,17 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello</title>
-    <link href="https://domeafavout.github.com/Blog/2020/04/05/Hello/"/>
-    <id>https://domeafavout.github.com/Blog/2020/04/05/Hello/</id>
-    <published>2020-04-05T10:32:39.000Z</published>
-    <updated>2020-04-05T10:32:39.990Z</updated>
+    <title>给页面添加深色模式</title>
+    <link href="https://domeafavout.github.com/Blog/2020/04/05/20200405-Add-Dark-Mode/"/>
+    <id>https://domeafavout.github.com/Blog/2020/04/05/20200405-Add-Dark-Mode/</id>
+    <published>2020-04-05T11:24:46.000Z</published>
+    <updated>2020-04-05T11:39:48.040Z</updated>
+    
+    <content type="html"><![CDATA[<p>怎么给页面添加样式使之自动适配苹果设备的深色模式呢？其实只要使用一个媒体查询就可以：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">prefers-color-scheme:</span> dark) &#123;</span><br><span class="line">  <span class="comment">/* 启用深色模式时所生效的样式 */</span></span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#000</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>同样也可以给浅色模式指定样式：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">prefers-color-scheme:</span> light) &#123;</span><br><span class="line">  <span class="comment">/* 启用浅色模式时所生效的样式 */</span></span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>详细可以看<a href="https://www.creativebloq.com/how-to/how-to-implement-light-or-dark-modes-in-css">这篇文章</a></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;怎么给页面添加样式使之自动适配苹果设备的深色模式呢？其实只要使用一个媒体查询就可以：&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/spa
+      
     
     </summary>
     
     
+      <category term="web" scheme="https://domeafavout.github.com/Blog/categories/web/"/>
+    
+    
+      <category term="web" scheme="https://domeafavout.github.com/Blog/tags/web/"/>
+    
+      <category term="css" scheme="https://domeafavout.github.com/Blog/tags/css/"/>
+    
+      <category term="深色模式" scheme="https://domeafavout.github.com/Blog/tags/%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   

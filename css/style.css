@@ -11321,3 +11321,39 @@ figure.highlight .section {
     padding: 1.5rem 1rem;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .navbar,
+  .footer {
+    background-color: #202124;
+    color: #7a7a7a;
+  }
+  .navbar .navbar-item,
+  .footer .navbar-item {
+    color: #7a7a7a;
+  }
+  .navbar .navbar-item:hover,
+  .footer .navbar-item:hover {
+    background-color: #35363a;
+  }
+  .card-content,
+  .media-content::after {
+    background-color: #202124;
+  }
+  .level .title {
+    color: #7a7a7a;
+  }
+  .level .level-item.tag {
+    background-color: #35363a;
+  }
+  .menu-list .level:hover {
+    background-color: #35363a;
+    color: #202124;
+  }
+  body,
+  .section {
+    background-color: #35363a;
+  }
+  #back-to-top {
+    background-color: #202124;
+  }
+}
